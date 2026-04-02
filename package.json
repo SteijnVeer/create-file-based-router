@@ -1,0 +1,24 @@
+{
+  "author": "Steijn Veer",
+  "bin": {
+    "create-file-based-router": "./bin/index.js"
+  },
+  "description": "Create a new fbr project. (@steijnveer/file-based-router)",
+  "files": [
+    "bin",
+    "template"
+  ],
+  "keywords": [
+    "file-based-router",
+    "express",
+    "typescript",
+    "fbr",
+    "create",
+    "template",
+    "scaffold"
+  ],
+  "license": "MIT",
+  "name": "@steijnveer/create-file-based-router",
+  "type": "module",
+  "version": "0.0.0"
+}
