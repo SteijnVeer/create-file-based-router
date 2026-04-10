@@ -1,18 +1,17 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
     "declaration": true,
     "declarationMap": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "module": "ESNext",
-    "moduleResolution": "Node",
     "outDir": "./dist",
     "paths": {
       "@/*": [
         "./src/*"
       ]
     },
+    "rootDir": "./src",
     "skipLibCheck": true,
     "strict": true,
     "target": "ES2020"

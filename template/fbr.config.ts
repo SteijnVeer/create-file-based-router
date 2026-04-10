@@ -4,10 +4,11 @@ export default {
     port: 3000,
     hostname: 'localhost',
     allowedOrigins: null,
+    forceNewImportMap: true,
   },
   router: {
     rootDir: '.\\src\\routes',
     basePath: '/',
-    allowedExtensions: ['.ts', '.js'],
+    allowedExtensions: ['.ts'],
   },
 };
