@@ -20,5 +20,5 @@
   "license": "MIT",
   "name": "@steijnveer/create-file-based-router",
   "type": "module",
-  "version": "0.0.4"
+  "version": "0.0.9"
 }

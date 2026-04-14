@@ -1,4 +1,5 @@
 export default {
+  plugins: [],
   logLevel: 'debug',
   server: {
     port: 3000,
