@@ -1,15 +1,22 @@
-export default {
-  plugins: [],
-  logLevel: 'debug',
+import defineConfig, { USE_ENV } from '@steijnveer/file-based-router/defineConfig';
+
+export default defineConfig({
+  logLevel: {
+    dev: 'debug',
+    prod: 'info',
+  },
+  paths: {
+    src: 'src',
+    build: 'dist',
+  },
   server: {
-    port: 3000,
-    hostname: 'localhost',
+    port: USE_ENV,
+    hostname: USE_ENV,
     allowedOrigins: null,
-    forceNewImportMap: true,
   },
   router: {
-    rootDir: '.\\src\\routes',
-    basePath: '/',
-    allowedExtensions: ['.ts'],
+    routesDir: 'routes',
+    routesBasePath: '/',
   },
-};
+  plugins: [],
+});

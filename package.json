@@ -6,7 +6,8 @@
   "description": "Create a new fbr project. (@steijnveer/file-based-router)",
   "files": [
     "bin",
-    "template"
+    "template",
+    "README.md"
   ],
   "keywords": [
     "file-based-router",
@@ -20,5 +21,5 @@
   "license": "MIT",
   "name": "@steijnveer/create-file-based-router",
   "type": "module",
-  "version": "0.0.9"
+  "version": "0.0.10"
 }

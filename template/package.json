@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@steijnveer/file-based-router": "^0.0.9"
+    "@steijnveer/file-based-router": "^0.0.10"
   },
   "description": "File-based routing project for Express with TypeScript support",
   "devDependencies": {
@@ -12,7 +12,7 @@
   "name": "my-fbr-app",
   "private": true,
   "scripts": {
-    "build": "tsc && fbr build",
+    "build": "fbr build",
     "dev": "fbr dev",
     "help": "fbr help"
   },

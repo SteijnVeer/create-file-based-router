@@ -1,4 +1,4 @@
-import type { Request, Response } from 'express';
+import type { Request, Response } from '@steijnveer/file-based-router';
 
 export const GET = (req: Request, res: Response) => {
   res.resolve({
