@@ -6,13 +6,14 @@ export default defineConfig({
     prod: 'info',
   },
   paths: {
-    src: 'src',
-    build: 'dist',
+    srcDir: 'src',
+    buildDir: 'dist',
   },
   server: {
     port: USE_ENV,
     hostname: USE_ENV,
     allowedOrigins: null,
+    staticFilesDir: 'public',
   },
   router: {
     routesDir: 'routes',
