@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@steijnveer/file-based-router": "^0.0.11"
+    "@steijnveer/file-based-router": "^0.0.13"
   },
   "description": "File-based routing project for Express with TypeScript support",
   "devDependencies": {
